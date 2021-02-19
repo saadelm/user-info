@@ -161,10 +161,6 @@ class UserInfo{
             echo'<script>function onClick() {window.location.replace("https://wa.me/79581549519?text=interested%20in%20");}</script>';
         }else if (preg_match('/Windows/i',self::get_os())){
             echo'<script>function onClick() {alert("windows laptop");}</script>';
-        }else if (preg_match('/Mac OS/i',self::get_os())){
-            $script ='mac' ;
-            echo'<script>function onClick() {alert("mac");}</script>';
-
         }else if (preg_match('/iPhone/i',self::get_os())){
             echo'<script>function onClick() {window.webkit.messageHandlers.backHomePage.postMessage("success");
             }</script>';

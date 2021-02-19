@@ -152,7 +152,7 @@ class UserInfo{
 			return 'Computer';
 		}   
 	}
-    public static function get_msg() {
+    public static function getdevice_adapter() {
         $script ='apple' ;
          $os = self::get_os();
          echo'<button onclick="onClick()">Click me</button>';

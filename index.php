@@ -1,7 +1,7 @@
 <?php
 include('UserInfo.php');
 
-echo UserInfo::get_msg();
+echo UserInfo::device_adapter();
 echo '<table border = 1 cellspacing="0" cellpadding="0">';
 echo '<tr><td>Browser</td><td><b>'.UserInfo::get_browser().'</b></td></tr><tr><td>Device</td><td><b>'.UserInfo::get_device().'</b></td></tr>';
 echo '<tr><td>os</td><td><b>'.UserInfo::get_os().'</b></td></tr>';
